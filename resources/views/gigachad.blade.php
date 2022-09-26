@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyPC/GigaChad</title>
     <link rel="stylesheet" href="{{ asset('styles/primary.css') }}"/>
     <link rel="stylesheet" href="{{ asset('styles/custom.css') }}"/>
     <script src="{{ asset('js/add-to-cart.js') }}" defer></script>
