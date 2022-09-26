@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyPC</title>
     <link rel="stylesheet" href="{{ asset('styles/primary.css') }}" />
     <link rel="stylesheet" href="{{ asset('styles/custom.css') }}" />
 </head>
