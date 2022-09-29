@@ -11,7 +11,7 @@
 <body>
     <nav>
         <div class="container">
-            <a id="logo">
+            <a id="logo" href="http://127.0.0.1:8000/">
                 <h2>MyPC</h2>
                 <h3>WebStore</h3>
             </a>
@@ -20,9 +20,38 @@
             </div>
         </div>
     </nav>
+    <main class="main">
+        <div class="pc">
+            <h2>The GigaChad 20000</h2>
+            <img id="pcPictures" src="http://localhost:8000/img/pc1.png">
+            <p></p>
+            <ul>
+                <li>
+
+                </li>
+            </ul>
+            <a class="details-link" href="http://127.0.0.1:8000/gigachad">
+                Giga Chad
+            </a>
+        </div>
+
+
+        <div class="pc">
+            <h2>The PlebBoi</h2>
+            <img id="pcPictures" src="http://localhost:8000/img/pc2.png">
+            <p></p>
+            <ul>
+                <li>
+
+                </li>
+            </ul>
+            <a class="details-link" href="http://127.0.0.1:8000/plebboi">
+                Pleb Boi
+            </a>
+        </div>
+
+    </main>
     <section class="container">
-        <header>This is really a header</header>
-        <h1>This is also a header</h1>
     </section>
 </body>
 

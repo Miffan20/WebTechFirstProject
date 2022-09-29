@@ -1,0 +1,13 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding-left: 25%;
+}
+
+.pc #pcPictures {
+    width: 25%;
+    height: 50%;
+}
+
