@@ -23,7 +23,7 @@
     <main class="main">
         <div class="pc">
             <h2>The GigaChad 20000</h2>
-            <img id="pcPictures" src="http://localhost:8000/img/pc1.png">
+            <img id="pcPictures" src="{{asset("/img/pc1.png")}}" alt="GigaChad">
             <p></p>
             <ul>
                 <li>
@@ -38,7 +38,7 @@
 
         <div class="pc">
             <h2>The PlebBoi</h2>
-            <img id="pcPictures" src="http://localhost:8000/img/pc2.png">
+            <img id="pcPictures" src="{{asset("/img/pc2.png")}}" alt="PlebBoi">
             <p></p>
             <ul>
                 <li>
