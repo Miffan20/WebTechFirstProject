@@ -11,7 +11,7 @@
 <body>
     <nav>
         <div class="container">
-            <a id="logo" href="http://127.0.0.1:8000/">
+            <a id="logo" href="{{route('index')}}">
                 <h2>MyPC</h2>
                 <h3>WebStore</h3>
             </a>
@@ -30,7 +30,7 @@
 
                 </li>
             </ul>
-            <a class="details-link" href="http://127.0.0.1:8000/gigachad">
+            <a class="details-link" href="{{route('gigachad')}}">
                 Giga Chad
             </a>
         </div>
@@ -45,7 +45,7 @@
 
                 </li>
             </ul>
-            <a class="details-link" href="http://127.0.0.1:8000/plebboi">
+            <a class="details-link" href="{{route('plebboi')}}">
                 Pleb Boi
             </a>
         </div>
