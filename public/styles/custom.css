@@ -11,3 +11,17 @@
     height: 50%;
 }
 
+.details-area {
+    display: flex;
+    flex-direction: column;
+}
+
+#chadNav {
+    background-color: yellow;
+}
+
+#chadH1 {
+    background-color: yellow;
+}
+
+
