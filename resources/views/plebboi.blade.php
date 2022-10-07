@@ -11,22 +11,46 @@
 </head>
 
 <body>
-<nav>
+<nav id="plebNav">
     <div class="container">
-        <a id="logo">
+        <a id="logo" href="{{route('index')}}" >
             <h2>MyPC</h2>
             <h3>WebStore</h3>
         </a>
         <div class="cart">
-            <span>In cart: </span><span id="cart-count"> 0</span>
+            <span>In cart: </span>
+            <span id="cart-count">0</span>
+
         </div>
     </div>
 </nav>
 <section class="container">
-    <main>
-        <!--Your HTML-->
+    <main class="details-area">
+        <img id="pc-image" src="{{asset("/img/pc2.png")}}" alt="Plebboi">
+        <h1 id="plebH1">The Plebboi</h1>
+
+        <div id="color-picker">
+            <label for="color">Chose a color</label>
+
+            <select id="color">
+                <option disabled selected value>None</option>
+                <option value="red">Volvo</option>
+                <option value="green">Saab</option>
+                <option value="blue">Mercedes</option>
+            </select>
+        </div>
+
+        <p></p>
+
+
+
+        <ul>
+            <li>
+
+            </li>
+        </ul>
+        <button class="addToCart" id="add-to-cart-button" onclick="incrementValue()">Add To Cart</button>
     </main>
 </section>
 </body>
-
 </html>
