@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MyPC/PlebBoi</title>
+    <title>MyPC/ The PlebBoi</title>
     <link rel="stylesheet" href="{{ asset('styles/primary.css') }}"/>
     <link rel="stylesheet" href="{{ asset('styles/custom.css') }}"/>
     <script src="{{ asset('js/add-to-cart.js') }}" defer></script>
@@ -26,17 +26,17 @@
 </nav>
 <section class="container">
     <main class="details-area">
-        <img id="pc-image" src="{{asset("/img/pc2.png")}}" alt="Plebboi">
+        <img id="pc-image" src="{{asset('/img/pc2.png')}}" alt="Plebboi">
         <h1 id="plebH1">The Plebboi</h1>
 
         <div id="color-picker">
             <label for="color">Chose a color</label>
 
-            <select id="color">
-                <option disabled selected value>None</option>
-                <option value="red">Volvo</option>
-                <option value="green">Saab</option>
-                <option value="blue">Mercedes</option>
+            <select id="color" onchange="changeImage(this)">
+                <option disabled selected value>Select one...</option>
+                <option value="{{asset('/img/plebboi/red.png')}}">Red</option>
+                <option value="{{asset('/img/plebboi/green.png')}}">Green</option>
+                <option value="{{asset('/img/plebboi/blue.png')}}">Blue</option>
             </select>
         </div>
 
