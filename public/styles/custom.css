@@ -16,11 +16,17 @@
     flex-direction: column;
 }
 
-#chadNav {
+nav {
+    color: yellow;
     background-color: yellow;
 }
 
-#chadH1 {
+.details-area h1 {
+    color: yellow;
+}
+
+#add-to-cart-button {
+    color: yellow;
     background-color: yellow;
 }
 
