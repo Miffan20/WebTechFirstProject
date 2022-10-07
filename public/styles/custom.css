@@ -16,12 +16,16 @@
     flex-direction: column;
 }
 
-nav {
+.nav {
     color: yellow;
     background-color: yellow;
 }
 
 .details-area h1 {
+    color: yellow;
+}
+
+.a.details-link {
     color: yellow;
 }
 
