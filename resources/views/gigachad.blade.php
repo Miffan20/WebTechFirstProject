@@ -34,7 +34,7 @@
 
             </li>
         </ul>
-        <button class="addToCart" id="add-to-cart-button" onclick="incrementValue()">Add To Cart</button>
+        <button class="addToCart" id="add-to-cart" onclick="incrementValue()">Add To Cart</button>
     </main>
 </section>
 </body>

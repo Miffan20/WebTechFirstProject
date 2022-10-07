@@ -17,11 +17,19 @@
 }
 
 #chadNav {
-    background-color: yellow;
+    background-color: #1a202c;
 }
 
-#chadH1 {
-    background-color: yellow;
+.details-area h1 {
+    color: #1a202c;
+}
+
+.a.details-link {
+    color: #1a202c;
+}
+
+#add-to-cart {
+    background-color: #1a202c;
 }
 
 
