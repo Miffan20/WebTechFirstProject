@@ -10,10 +10,19 @@ function incrementValue(){
 
 function plebBoiButtonController(){
 
-    if (condition) {
-        //  block of code to be executed if the condition is true
+    var x = document.getElementById("color").value;
+
+    if (x === "yellow") {
+       // document.getElementById("add-to-cart-button").enabled = true;
+        incrementValue();
+        
+
+
+
     }
     else {
+        //document.getElementById("add-to-cart-button").disabled = true;
+        alert("choose color")
 
     }
 

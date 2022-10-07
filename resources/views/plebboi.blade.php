@@ -33,10 +33,12 @@
             <label for="color">Chose a color</label>
 
             <select id="color" onchange="changeImage(this)">
+
                 <option disabled selected value>Select one...</option>
                 <option value="{{asset('/img/plebboi/red.png')}}">Red</option>
                 <option value="{{asset('/img/plebboi/green.png')}}">Green</option>
                 <option value="{{asset('/img/plebboi/blue.png')}}">Blue</option>
+                <option value="yellow">Yellow</option>
             </select>
         </div>
 
@@ -49,7 +51,7 @@
 
             </li>
         </ul>
-        <button class="addToCart" id="add-to-cart-button" onclick="incrementValue()">Add To Cart</button>
+        <button class="addToCart" id="add-to-cart-button" onclick="plebBoiButtonController()">Add To Cart</button>
     </main>
 </section>
 </body>
