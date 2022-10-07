@@ -16,22 +16,20 @@
     flex-direction: column;
 }
 
-.nav {
-    color: yellow;
-    background-color: yellow;
+#chadNav {
+    background-color: #1a202c;
 }
 
 .details-area h1 {
-    color: yellow;
+    color: #1a202c;
 }
 
 .a.details-link {
-    color: yellow;
+    color: #1a202c;
 }
 
-#add-to-cart-button {
-    color: yellow;
-    background-color: yellow;
+#add-to-cart {
+    background-color: #1a202c;
 }
 
 
