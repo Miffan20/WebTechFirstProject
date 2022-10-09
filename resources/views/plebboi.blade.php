@@ -37,7 +37,7 @@
                 <option value="red">Red</option>
                 <option value="green">Green</option>
                 <option value="blue">Blue</option>
-                <option value="yellow">Yellow</option>
+
             </select>
         </div>
 
@@ -50,7 +50,7 @@
 
             </li>
         </ul>
-        <button class="addToCart" id="add-to-cart" onclick="incrementValue()">Add To Cart</button>
+        <button class="addToCart" id="add-to-cart" onclick="plebBoiButtonController()">Add To Cart</button>
     </main>
 </section>
 </body>
