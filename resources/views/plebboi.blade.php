@@ -28,7 +28,7 @@
     <main class="details-area">
 
         <img id="pc-image" src="{{asset('/img/pc2.png')}}" alt="Plebboi">
-        <h1 id="plebH1">The Plebboi</h1>
+        <h1 id="plebH1">The PlebBoi</h1>
 
         <div id="color-picker">
             <label for="color">Chose a color</label>
