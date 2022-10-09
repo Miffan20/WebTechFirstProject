@@ -42,12 +42,12 @@
         </div>
 
         <p>
-
+            "The plebbois for the plebbois and simps outthere"
         </p>
 
         <ul>
             <li>
-
+                You can finally get the E-girl of your dreams
             </li>
         </ul>
         <button class="addToCart" id="add-to-cart" onclick="plebBoiButtonController()">Add To Cart</button>

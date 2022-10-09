@@ -24,10 +24,16 @@
         <div class="pc">
             <h2>The GigaChad 20000</h2>
             <img id="pcPictures" src="{{asset("/img/pc1.png")}}" alt="GigaChad">
-            <p></p>
+            <p>"The gigaChad is the perfect machine for your gaming needs!" </p>
             <ul>
                 <li>
-
+                    1000 GW processor
+                </li>
+                <li>
+                    4000 GB ram Power
+                </li>
+                <li>
+                    0.1 MHz thinking power
                 </li>
             </ul>
             <a class="details-link" href="{{route('gigachad')}}">
@@ -39,10 +45,16 @@
         <div class="pc">
             <h2>The PlebBoi</h2>
             <img id="pcPictures" src="{{asset("/img/pc2.png")}}" alt="PlebBoi">
-            <p></p>
+            <p>"The PlebBoi comes in multiple colors, to suit your mushroom trips"</p>
             <ul>
                 <li>
-
+                    multiple colors to choose from
+                </li>
+                <li>
+                    mystery OnlyFans giftcard
+                </li>
+                <li>
+                    free shrooms
                 </li>
             </ul>
             <a class="details-link" href="{{route('plebboi')}}">

@@ -28,10 +28,13 @@
     <main class="details-area">
         <img id="pc-image" src="{{asset("/img/pc1.png")}}" alt="GigaChad">
         <h1 id="chadH1">The GigaChad 2000</h1>
-        <p></p>
+        <p>"Buy the gigachad!! 100% satisfaction or money back, not guaranteed "</p>
         <ul>
             <li>
-
+                Buy it plz
+            </li>
+            <li>
+                It will help you with mental health
             </li>
         </ul>
         <button class="addToCart" id="add-to-cart" onclick="incrementValue()">Add To Cart</button>
