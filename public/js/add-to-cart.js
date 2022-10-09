@@ -23,7 +23,7 @@ const selectElement = document.querySelector('#color');
 
 selectElement.addEventListener('change', (event) => {
 
-    let properSrc = `http://localhost:8000/img/plebboi/${event.target.value}.png`;
+    let properSrc = location.origin + `/img/plebboi/${event.target.value}.png`;
 
     document.querySelector('#pc-image').src = properSrc;
 });
