@@ -6,8 +6,7 @@ function incrementValue(){
     document.getElementById('cart-count').innerHTML = count;
 }
 
-/*
-function plebBoiButtonController(){
+/*function plebBoiButtonController(){
     var x = document.getElementById("color").value;
 
     if (x === "yellow") {
@@ -24,7 +23,7 @@ const selectElement = document.querySelector('#color');
 
 selectElement.addEventListener('change', (event) => {
 
-    let properSrc = String.raw `/img/plebboi/${event.target.value}.png`;
+    let properSrc = `http://localhost:8000/img/plebboi/${event.target.value}.png`;
 
     document.querySelector('#pc-image').src = properSrc;
 });

@@ -26,12 +26,12 @@
 </nav>
 <section class="container">
     <main class="details-area">
+
         <img id="pc-image" src="{{asset('/img/pc2.png')}}" alt="Plebboi">
         <h1 id="plebH1">The Plebboi</h1>
 
         <div id="color-picker">
             <label for="color">Chose a color</label>
-
             <select id="color">
                 <option disabled selected value>Select one...</option>
                 <option value="red">Red</option>
@@ -50,7 +50,7 @@
 
             </li>
         </ul>
-        <button class="addToCart" id="add-to-cart" onclick="plebBoiButtonController()">Add To Cart</button>
+        <button class="addToCart" id="add-to-cart" onclick="incrementValue()">Add To Cart</button>
     </main>
 </section>
 </body>
