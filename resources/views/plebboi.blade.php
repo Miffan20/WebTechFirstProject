@@ -16,6 +16,8 @@
         <a id="logo" href="{{route('index')}}" >
             <h2>MyPC</h2>
             <h3>WebStore</h3>
+
+            
         </a>
         <div class="cart">
             <span>In cart: </span>
