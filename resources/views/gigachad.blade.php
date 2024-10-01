@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="{{ asset('styles/primary.css') }}"/>
     <link rel="stylesheet" href="{{ asset('styles/custom.css') }}"/>
     <script src="{{ asset('js/add-to-cart.js') }}" defer></script>
+
+    
 </head>
 
 <body>
